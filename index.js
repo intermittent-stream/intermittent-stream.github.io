@@ -1,7 +1,7 @@
 /* global L */
 ;(function (window) {
   function init (mapid) {
-    var minZoom = 0
+    var minZoom = 1
     var maxZoom = 7
     var img = [
       32768, // original width of image `karta.jpg`
