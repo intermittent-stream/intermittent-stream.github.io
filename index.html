@@ -1,28 +1,24 @@
+<!DOCTYPE html>
 <html>
-<head>
-<style>
-.fill {
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('seasonal_creek.jpg');
-    min-height: 100%;
-    min-width: 100%;
-}
-
-html {
-	padding: 0px;
-	margin: 0px;
-}
-
-body {
-	padding: 0px;
-	margin: 0px;
-}
-
-</style>
-</head>
-<body>
-<div class="fill"></div>
-</body>
+  <head>
+    <title>Look Up</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <style>
+      html, body, #map {
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="rastercoords.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
