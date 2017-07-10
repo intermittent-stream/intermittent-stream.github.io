@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
     <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
-      <Title>new_york_hi_res32k.png</Title>
+      <Title>new_york_r.png</Title>
       <Abstract></Abstract>
       <SRS></SRS>
       <BoundingBox minx="0.00000000000000" miny="-32000.00000000000000" maxx="32000.00000000000000" maxy="0.00000000000000"/>
