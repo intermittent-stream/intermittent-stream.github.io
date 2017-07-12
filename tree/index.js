@@ -21,7 +21,7 @@
     map.setView(rc.unproject([8000, 3000]), 4)
 
     // the tile layer containing the image generated with gdal2tiles --leaflet ...
-    L.tileLayer('./tiles/{z}/{x}/{y}.png', {
+    L.tileLayer('./tiles/{z}/{x}/{y}.jpg', {
       noWrap: true,
       attribution: 'Project by <a href="http://subject.space">Logan Williams</a>.'
     }).addTo(map)
