@@ -6,6 +6,16 @@
 	src: url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('../fonts/codropsicons/codropsicons.woff') format('woff'), url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
 
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('fonts/Avenir Next.ttc'); /* IE9+ Compat Modes */
+  src: url('fonts/Avenir Next.ttc') format('ttc'); /* Super modern browsers */
+       /*url('fonts/Avenir Next.ttc') format('woff'), /* Modern browsers */*/
+       /*url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */*/
+       /*url('webfont.svg#FontName') format('svg'); /* Legacy iOS */*/
+
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
