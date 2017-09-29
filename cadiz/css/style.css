@@ -49,6 +49,28 @@
 }
 
 
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts/Avenir-Light.eot');
+	src: url('../fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Avenir-Light.woff') format('woff'),
+		url('../fonts/Avenir-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts/Avenir-LightOblique.eot');
+	src: url('../fonts/Avenir-LightOblique.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Avenir-LightOblique.woff') format('woff'),
+		url('../fonts/Avenir-LightOblique.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
