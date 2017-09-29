@@ -7,9 +7,19 @@
 }
 
 @font-face {
-  font-family: 'Avenir Next';
-  src: url('fonts/Avenir Next.ttc'); /* IE9+ Compat Modes */
-  src: url('fonts/Avenir Next.ttc') format('ttc'); /* Super modern browsers */
+	  font-family: 'Avenir Next';
+	  src: url('fonts/Avenir Next.ttc'); /* IE9+ Compat Modes */
+	  src: url('fonts/Avenir Next.ttc') format('ttc'); /* Super modern browsers */
+       /*url('fonts/Avenir Next.ttc') format('woff'), /* Modern browsers */*/
+       /*url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */*/
+       /*url('webfont.svg#FontName') format('svg'); /* Legacy iOS */*/
+
+}
+
+@font-face {
+	  font-family: 'Interstate';
+	  src: url('fonts/Interstate-Regular.ttf'); /* IE9+ Compat Modes */
+	  src: url('fonts/Interstate-Regular.ttf') format('ttf'); /* Super modern browsers */
        /*url('fonts/Avenir Next.ttc') format('woff'), /* Modern browsers */*/
        /*url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */*/
        /*url('webfont.svg#FontName') format('svg'); /* Legacy iOS */*/
@@ -118,7 +128,7 @@ a:focus {
 }
 
 .header-title__main {
-	font-family: Interstate;
+	font-family: Interstate, 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	/*font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;*/
 	font-size: 3em;
 	font-weight: 400;
@@ -127,7 +137,7 @@ a:focus {
 }
 
 .header-title__part {
-	font-family: Interstate;
+	font-family: Interstate,'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	/*font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;*/
 	font-size: 0.85em;
 	font-weight: 400;
